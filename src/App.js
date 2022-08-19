@@ -3,6 +3,7 @@ import FeedBackList from "./components/FeedBackList"
 import {useState} from 'react'
 import FeedBackData from './data/FeedBackData'
 import FeedbackStats from "./components/FeedbackStats"
+import FeedbackForm from "./components/FeedbackForm"
 
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
     return (
         <>
         <Header/>
+        <FeedbackForm/>
         <FeedbackStats feedback={feedback}/>
         <FeedBackList 
             feedback={feedback}
