@@ -11,7 +11,7 @@ function Header({text, bgColor, textColor}) {
 }
 
 Header.defaultProps = {
-    text: 'TESTING FEEDBACK-APP',
+    text: 'FEEDBACK-APP',
     bgColor: 'black',
     textColor: 'pink'
 }
